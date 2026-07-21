@@ -1,0 +1,10 @@
+package accountHistory;
+public enum AccountHistoryEventType {
+    ACCOUNT_REGISTERED,
+    PROFESSION_CHANGED,
+    HOLDER_RELEASED,
+    HOLDER_ASSIGNED,
+    ACCOUNT_BLOCKED,
+    ACCOUNT_UNBLOCKED,
+    ACCOUNT_CLOSED
+}

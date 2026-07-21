@@ -1,0 +1,1 @@
+package behavior.alignment.repository;import behavior.alignment.profile.*;import java.util.*;public interface StructuralAlignmentRepository{void replaceAll(Collection<StructuralAlignment> values);Optional<StructuralAlignment> findById(StructuralAlignmentId id);List<StructuralAlignment> findAll();long count();}

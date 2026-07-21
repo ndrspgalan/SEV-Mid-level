@@ -1,0 +1,1 @@
+package tests;public final class MidM3_4RegressionSuite{private MidM3_4RegressionSuite(){}public static void main(String[]a)throws Exception{MidM3_3RegressionSuite.main(a);StructuralAlignmentAnalyzerTest.main(a);System.out.println("MidM3_4RegressionSuite: ALL TESTS PASSED");}}

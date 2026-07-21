@@ -1,0 +1,9 @@
+package mintCoin;
+
+public enum MintRejectionReason {
+    SPECIFICATION_NOT_FOUND,
+    MATERIAL_NOT_ALLOWED,
+    WEIGHT_NOT_ALLOWED,
+    SEAL_NOT_ALLOWED,
+    OPERATIONAL_LIMIT_EXCEEDED
+}

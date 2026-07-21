@@ -1,0 +1,3 @@
+package behavior.alignment.analysis;
+import behavior.alignment.profile.StructuralAlignment;import java.util.*;
+public record StructuralAlignmentAnalysisReport(long caseFilesExamined,long alignmentsProduced,long profileComparisons,long compatibleComparisons,long crossProfileCompatibilities,long missingDeclaredProfiles,List<StructuralAlignment> alignments){public StructuralAlignmentAnalysisReport{if(caseFilesExamined<0||alignmentsProduced<0||profileComparisons<0||compatibleComparisons<0||crossProfileCompatibilities<0||missingDeclaredProfiles<0)throw new IllegalArgumentException();alignments=List.copyOf(Objects.requireNonNull(alignments));}}

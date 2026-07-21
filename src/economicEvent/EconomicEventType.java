@@ -1,0 +1,20 @@
+package economicEvent;
+
+/** Specific fact represented by an EconomicEvent. */
+public enum EconomicEventType {
+    MONETARY_MINTED,
+    CURRENCY_EXCHANGED,
+    PURCHASE_EXECUTED,
+    FUNDS_TRANSFERRED,
+
+    ACCOUNT_REGISTERED,
+    PROFESSION_CHANGED,
+    HOLDER_RELEASED,
+    HOLDER_ASSIGNED,
+    ACCOUNT_BLOCKED,
+    ACCOUNT_UNBLOCKED,
+    ACCOUNT_CLOSED,
+
+    OPERATION_AUTHORIZED,
+    OPERATION_REJECTED
+}
